@@ -7,8 +7,8 @@
 
 * [Vs Extension Bracket pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 
-*[Vs Extension Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+* [Vs Extension Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-*[Vs Extension Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+* [Vs Extension Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-*[Vs Extension Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [Vs Extension Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
