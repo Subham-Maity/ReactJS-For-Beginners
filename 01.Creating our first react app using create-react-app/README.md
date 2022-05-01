@@ -27,6 +27,12 @@ npx create-react-app textutils
 
 # 3. Folder Structure of Textutils(Our React App):
 
+![screenshot](1.jpg)
+![screenshot](2.jpg)
+![screenshot](3.jpg)
+![screenshot](4.jpg)
+
+
 - node_modules: It contains all the packages, which are used by React app.
 
 
