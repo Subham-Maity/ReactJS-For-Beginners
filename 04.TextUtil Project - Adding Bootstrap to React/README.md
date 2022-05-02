@@ -14,7 +14,7 @@
 - Removing Extra spaces.
 - Capitalizing the text of the document.
 - Adding Lowercase and uppercase to the text.
-1. Open Bootstrap [website](https://getbootstrap.com/docs/5.1/getting-started/introduction/) and copy CSS and Bootstrap Bundle in your HTML file (public folder)
+1. Open Bootstrap [website](https://getbootstrap.com/docs/5.1/getting-started/introduction/) and copy CSS and Bootstrap Bundle and paste on your HTML file (public folder)
 
 **node** - copy from Starter Template
 
