@@ -1,4 +1,6 @@
-# Project-1: Creating a TextUtils app:
+# Project-1: Creating a TextUtils app: (Day-1 Add Bootstrap-Navbar)
+
+![screenshot](Screenshot 2022-05-03 000441.png)
 **Description of our app:** It is a text document editor. It will contain a Text box in which we will be adding our text.
 
 ### Some of its features will be:
