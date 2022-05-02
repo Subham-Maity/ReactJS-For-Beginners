@@ -1,6 +1,11 @@
 # Project-1: Creating a TextUtils app: (Day-1 Add Bootstrap-Navbar)
 
-![screenshot](Screenshot 2022-05-03 000441.png)
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/04.TextUtil%20Project%20-%20Adding%20Bootstrap%20to%20React/Screenshot%202022-05-03%20000441.png?raw=true"/>
+        </p>
+
+
 **Description of our app:** It is a text document editor. It will contain a Text box in which we will be adding our text.
 
 ### Some of its features will be:
