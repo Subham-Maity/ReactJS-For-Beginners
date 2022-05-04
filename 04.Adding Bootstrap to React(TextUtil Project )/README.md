@@ -2,7 +2,7 @@
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/04.TextUtil%20Project%20-%20Adding%20Bootstrap%20to%20React/Screenshot%202022-05-03%20000441.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/04.Adding%20Bootstrap%20to%20React(TextUtil%20Project%20)/Screenshot%202022-05-03%20000441.png?raw=true"/>
         </p>
 
 
