@@ -1,3 +1,4 @@
+![Screenshot](longSubham.png)
 * ##  Named export and Default Export:
 
 ### 1. Default Export: 
