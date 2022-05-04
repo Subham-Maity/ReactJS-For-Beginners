@@ -13,8 +13,9 @@ While copying anything from Bootstrap, Make sure to do the following changes:
 3. Figure1.1: Our Textbox in textform.js
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.State%20&%20Handling%20Events%20in%20React/Images(ignore)/Img1.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.Creating%20TextBox%20using%20State%20&%20Handling%20Events%20(TextUtil%20Project)/Images(ignore)/Img1.png?raw=true"/>
         </p>
+
 
 4. We would also like to attach some buttons in our app which will fire an event on clicking. 
 
@@ -29,7 +30,7 @@ In textform.js:
    
 Figure1.2: Importing and Using Textform
 <p align="center">
-        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.State%20&%20Handling%20Events%20in%20React/Images(ignore)/Img2.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.Creating%20TextBox%20using%20State%20&%20Handling%20Events%20(TextUtil%20Project)/Images(ignore)/Img2.png?raw=true"/>
         </p>
 
 
@@ -38,7 +39,7 @@ Here, we have rendered the textform in our application and have successfully pas
 Our app is looking something like this,
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.State%20&%20Handling%20Events%20in%20React/Images(ignore)/Img3.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.Creating%20TextBox%20using%20State%20&%20Handling%20Events%20(TextUtil%20Project)/Images(ignore)/Img3.png?raw=true"/>
         </p>
 
 *********************
@@ -72,7 +73,7 @@ const [text, setText] = useState('Enter Text here2');
 ### Result
 Figure1.4: Used State to enter text
 <p align="center">
-        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.State%20&%20Handling%20Events%20in%20React/Images(ignore)/Img4.jpg?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.Creating%20TextBox%20using%20State%20&%20Handling%20Events%20(TextUtil%20Project)/Images(ignore)/Img4.jpg?raw=true"/>
         </p>
 
 9. Changing Values using SetText:
@@ -97,7 +98,7 @@ const handleUpClick = () => {
 **Result**
 Figure1.5: Displaying the result
 <p align="center">
-        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.State%20&%20Handling%20Events%20in%20React/Images(ignore)/Img5.jpg?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/06.Creating%20TextBox%20using%20State%20&%20Handling%20Events%20(TextUtil%20Project)/Images(ignore)/Img5.jpg?raw=true"/>
         </p>
 You will notice that you cannot add more text in the textbox. This is due to the reason as we didn’t assign a function to the ‘Onchange’ event.
 
