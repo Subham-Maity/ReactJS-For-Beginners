@@ -12,7 +12,7 @@ Create "about.js" in your components folder and by using snippet ‘rfc’ we ca
 Now we will render this "about.js" in the Home section of our application with the help of "app.js". So, comment out the "textform.js" and add the "about.js" file.
 
 <p align="center">
-        <img src=" https://github.com/Subham-Maity/react-js-bootcamp/blob/master/09.Enable%20Dark%20Mode%20Button%20Using%20useState%20Hook(TextUtil%20Project)/image%20(ignore)/1.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/09.Enable%20Dark%20Mode%20Button%20Using%20useState%20Hook(TextUtil%20Project)/image%20(ignore)/1.png?raw=true"/>
         </p>
 
 Figure1.1: Rendering About.js
