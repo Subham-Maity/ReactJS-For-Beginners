@@ -12,7 +12,7 @@ Create "about.js" in your components folder and by using snippet ‘rfc’ we ca
 Now we will render this "about.js" in the Home section of our application with the help of "app.js". So, comment out the "textform.js" and add the "about.js" file.
 
 <p align="center">
-        <img src=" https://github.com/Subham-Maity/react-js-bootcamp/blob/master/09.Enable%20Dark%20Mode%20Button%20Using%20useState%20Hook(TextUtil%20Project)/image%20(ignore)/1.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/09.Enable%20Dark%20Mode%20Button%20Using%20useState%20Hook(TextUtil%20Project)/image%20(ignore)/1.png?raw=true"/>
         </p>
 
 Figure1.1: Rendering About.js
@@ -70,7 +70,7 @@ Remember: In JS everything is in camel case
 We are using this style object in our three accordion buttons and body. After applying styles our app is appearing something like this:
 
 <p align="center">
-        <img src=" https://github.com/Subham-Maity/react-js-bootcamp/blob/master/09.Enable%20Dark%20Mode%20Button%20Using%20useState%20Hook(TextUtil%20Project)/image%20(ignore)/2.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/09.Enable%20Dark%20Mode%20Button%20Using%20useState%20Hook(TextUtil%20Project)/image%20(ignore)/2.png?raw=true"/>
         </p>
 
 Figure1.2: Our Application
@@ -149,9 +149,11 @@ Hence, we have successfully created a button to enable dark mode in our Applicat
 ### **Summary:**
 
 What we have done in our about.js:
+
 <p align="center">
-        <img src=" https://github.com/Subham-Maity/react-js-bootcamp/blob/master/09.Enable%20Dark%20Mode%20Button%20Using%20useState%20Hook(TextUtil%20Project)/image%20(ignore)/3.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/09.Enable%20Dark%20Mode%20Button%20Using%20useState%20Hook(TextUtil%20Project)/image%20(ignore)/3.png?raw=true"/>
         </p>
+        
 Figure1.3: A short summary
 
 We have rendered about.js in the Home section just for the demo. So, Comment out the about component and again use the text form component. Later on, we would be rendering this about.js to the About section of our application with the help of a router.
