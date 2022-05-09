@@ -128,10 +128,15 @@ Here is the short summary of this tutorial:
 
 
 <p align="center">
-        <img src=" "/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/13.React%20Router%20Setup%20+%20Usage%20%20(TextUtil%20Project)/image(ignore)/1.png?raw=true"/>
         </p>
 
 
 Figure 1.1: A short summary
 
 Remember you must use an ‘exact’ parameter with the Route component as it disables the partial matching of the route and makes sure that it only returns the route if the path is exact.
+
+**************
+Any update related issues for the above v6
+
+https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom
