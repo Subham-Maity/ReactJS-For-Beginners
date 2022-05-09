@@ -1,3 +1,5 @@
+![Screenshot](main.png)
+
 ## Changing Title and Meta Description
 Open "index.html" available in the public folder. In "index.html" we can easily change the meta description as well as the title of our application. You can enter your desired description and title in the meta tag and title tag of "index.html" respectively.
 
