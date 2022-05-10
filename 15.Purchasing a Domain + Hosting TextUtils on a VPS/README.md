@@ -59,6 +59,7 @@ Enter your host, username and password in FileZilla and then navigate to "/var/w
 
 
 
+![30062cf363c12a839de56ff21b3699f5](https://user-images.githubusercontent.com/97989643/167683748-e67fbd6d-608a-4c01-8521-e325ed1c8dde.png)
 
 
 Figure 1.1: Using Filezilla
