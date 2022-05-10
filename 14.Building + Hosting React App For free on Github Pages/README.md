@@ -66,16 +66,25 @@ Use the below command to install gh-pages in your React app.
 Add the below code in the script (available in "package.json") of your React application.
 </p>
 
-
+<p> Add the script in "package.json"
+</p>
 
 <pre class="prettyprint"> "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
 </pre>
 
-4. Now enter 
+<p>
+4. build the application
+</p>
+
+
+<pre class="prettyprint"> npm run build
+</pre>
+
+5. Now enter 
 
 <pre class="prettyprint">
-Run the npm run deploy
+npm run deploy
 </pre>
 <p>
 
