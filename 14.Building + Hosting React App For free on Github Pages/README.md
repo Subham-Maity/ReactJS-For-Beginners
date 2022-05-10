@@ -219,7 +219,7 @@ Hence our application has been hosted on Github.
 If you are facing any problem, then check out the pages section available in settings, and make sure to select the branch as gh-pages as shown below:
 </p>
 <p align="center">
-        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/14.Building%20+%20Hosting%20React%20App%20For%20free%20on%20Github%20Pages/Image(ignore)/1.png?raw=true "/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/14.Building%20+%20Hosting%20React%20App%20For%20free%20on%20Github%20Pages/image(ignore)/1.png?raw=true "/>
         </p>
 
 <p>
@@ -236,7 +236,7 @@ Here is the short summary of the four steps, which are required for deploying yo
 </p>
 <p>
 <p align="center">
-        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/14.Building%20+%20Hosting%20React%20App%20For%20free%20on%20Github%20Pages/Image(ignore)/2.png?raw=true "/>
+        <img src="https://github.com/Subham-Maity/react-js-bootcamp/blob/master/14.Building%20+%20Hosting%20React%20App%20For%20free%20on%20Github%20Pages/image(ignore)/2.png?raw=true "/>
         </p>
 Figure 1.2: Hosting the application in Github
 </p>
