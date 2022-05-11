@@ -1,3 +1,6 @@
+![Screenshot 2022-05-12 012119](https://user-images.githubusercontent.com/97989643/167933994-a8a06941-d9fd-424f-b2c2-31b7d8f8a1e7.png)
+
+
 ## **Fixing Issues & Wrapping up TextUtils**
 
 
@@ -23,7 +26,7 @@ We have created the function of Counting words in our Textform.js. The split() m
 Solution: The quick way of fixing this error is by removing the empty strings from the split array. We can easily do so by using the filter method in our Text.split function as described below:
 
 
-```
+```jsx
 {text.split(" ").filter((element)=>{return element.length!==0}).length}
 ```
 
@@ -34,6 +37,7 @@ Our Error has been Successfully Resolved.
 
 
 ### **2. Adding Mobile-Friendly Buttons**
+![1](https://user-images.githubusercontent.com/97989643/167933655-4b5c63f7-d5b5-4436-a3b7-0167ee855f6e.png)
 
 Figure 1.1: No Mobile-Friendly Buttons
 
@@ -41,6 +45,7 @@ The above error is occurring as there is no margin for the buttons in the Y dire
 
 
 ### **3. Enhancing "about.js"**
+![2](https://user-images.githubusercontent.com/97989643/167933680-b64db971-7b23-4f33-b44d-d87fc111301a.png)
 
 Figure 1.2: Unfavorable About Page
 
@@ -53,7 +58,7 @@ To add dark mode to our about.js, follow the below steps.
 Step 1: Firstly, Pass Mode in About component of App.js as
 
 
-```
+```jsx
 <About mode={mode}/>
 ```
 
@@ -61,7 +66,7 @@ Step 1: Firstly, Pass Mode in About component of App.js as
 Step 2: We would create a new ‘myStyle’ variable which would provide our desired design to the About page, on enabling the dark mode.
 
 
-```
+```jsx
 let myStyle = {
     color: props.mode === 'dark'?'white':'#042743',
     backgroundColor: props.mode ==='dark'?'rgb(36 74 104)':'white'
@@ -70,6 +75,7 @@ let myStyle = {
 
 
 Step 3: We have used conditional operators to set color while changing modes. After that, we would pass this "myStyle" to the Accordion component, and We would only pass the color to the heading because we would like to differentiate the heading from the rest of the component. You can use any of your desired colors to style the components.
+![3](https://user-images.githubusercontent.com/97989643/167933702-d593f1e2-788d-439f-a7c5-4027f6d57366.png)
 
 Figure 1.3: About Page of our Application
 
@@ -81,6 +87,7 @@ We have successfully enhanced our About Page
 The layout of our application is shifting when an alert is shown. Remember that the layout shift must be minimum for your application, as this is one of the ranking factors from the SEO point of view.
 
 Solution: To resolve the issue, go to your "alert.js", and inside the alert component, we would wrap the alert inside a div container having a specific height.
+![4](https://user-images.githubusercontent.com/97989643/167933728-a433e88e-e9d3-4c0c-b691-3226b22c56c0.png)
 
 Figure 1.4: Solving CLS issue
 
@@ -92,6 +99,7 @@ Our CLS Error has been successfully resolved.
 ### **5. Cursor Invisibility in Dark Mode**
 
 Our cursor is becoming invisible on hovering in the textbox due to its grey color. To solve this problem, simply change the color of the "textarea" from grey to blue. We can easily do that by going to the textarea in "textform.js" and editing its existing style.
+![5](https://user-images.githubusercontent.com/97989643/167933746-25ba0add-6e44-41bb-a6eb-35edce9c0982.png)
 
 Figure 1.5: Solving Cursor Invisibility
 
@@ -103,7 +111,7 @@ Our cursor is visible in the dark mode.
 Our application will be showing the expected time to read the provided text, but if the Textbox is blank then also our Time counter is showing an expected time to read the text. To fix this bug in our application, we would use the filter method as we have used to solve the counting word error.
 
 
-```
+```jsx
 <p>{0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} Minute read </p>
 ```
 
@@ -120,12 +128,14 @@ In index.html:
 Meta Description: It provides a brief sketch of the content of the website to the Google crawler. Therefore, it becomes utterly important to add specific keywords related to our content in the meta description.
 
 Title: It specifies the Content of our specific web pages. Hence, we have changed the title of our application by adding some relevant Keywords to it.
+![6](https://user-images.githubusercontent.com/97989643/167933785-84ed8746-e4fd-4a4e-a8b6-cd5b80ecbe97.png)
 
 Figure 1.6: Adding Meta Description and Title
 
 In textform.js:
 
 Editing Headings: It plays a major role in the SEO optimization of our website as it makes it easier for a User and Crawler to navigate through the page. We will be passing a new heading, having relevant keywords related to our application, in props.heading from app.js.
+![7](https://user-images.githubusercontent.com/97989643/167933793-65ec2444-47bb-49b0-a9c9-64bdfd6b656f.png)
 
 Figure 1.7: Passing New Heading
 
@@ -139,7 +149,7 @@ When our Textbox is empty, but our buttons are working and performing their func
 Solution: To overcome this issue, we would add the below code to every button.
 
 
-```
+```jsx
 disabled={text.length===0}
 ```
 
@@ -193,6 +203,7 @@ HTTPS has been Enabled for the Textutils website.
 
 
 ### **10. Deselecting the copied text**
+![8](https://user-images.githubusercontent.com/97989643/167933823-cf0b9a29-e483-404e-b853-4c3f2c984af3.png)
 
 Figure 1.8: Selected  Text Issue
 
@@ -203,7 +214,7 @@ Solution: To overcome this issue, we will edit our handle function, available in
 Add the below code in handle function:
 
 
-```
+```jsx
 document.getSelection().removeAllRange();
 ```
 
