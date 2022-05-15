@@ -1,5 +1,5 @@
 
-<h3>**News API**</h3>
+<h3>News API</h3>
 
 
 We would be using a News API to render news in our news monkey Application. To check out the news API, click [here](https://newsapi.org/). After that, log in to the news API by filling up some basic details like Name, Email, Password, and get your API key. After you are logged in, you will see your live API key in every example. We would be using the Top headlines Endpoint for our application.
@@ -16,7 +16,7 @@ Note: We are getting the output as a parsed JSON because we have installed ‘[J
 
 Figure 1.3: Copy the Raw JSON code
 
-<h4>**Using NewsAPI in News Monkey**</h4>
+<h4>Using NewsAPI in News Monkey</h4>
 
 
 Create a new file named sampleOutput.json and paste the sample response code into it. You can use the format document option to perfectly format your raw JSON code. Remember, It is just a piece of sample news and not real-time news. These sample articles will act as our News Item. As for now, we have four articles.
@@ -25,7 +25,7 @@ Figure 1.4: Four News Articles
 
  
 
-<h4>**Enhancing News Item Component**</h4>
+<h4>Enhancing News Item Component</h4>
 
 
 Visit [bootstrap](https://getbootstrap.com/) to get some designing components for the NewsMonkey application. We would like to use Cards to display our NewsItems. So, Copy the code of your desired card and paste it inside NewsItem.js as shown below: 
@@ -36,7 +36,7 @@ Now, we will change the Title and Description of every card. To do that, we will
 
  
 
-<h4>**Using props in class-based component**</h4>
+<h4>Using props in class-based component</h4>
 
 
 We would be passing the title and description of the News as a prop.
@@ -51,7 +51,7 @@ Hence, we can easily pass the title and description to every newsItem.
 
  
 
-<h4>**Adding Title and Description**</h4>
+<h4>Adding Title and Description</h4>
 
 
 For the demo, We are passing the title as ‘myTitle’ and the description as ‘mydesc’ in the NewsItem from News.js.
@@ -64,7 +64,7 @@ Figure 1.8: Result
 
  
 
-<h4>**Enhancing NewsMonkey **</h4>
+<h4>Enhancing NewsMonkey </h4>
 
 
 Our application isn’t looking that amazing, so let’s add some Styles and make it Outstanding. In order to do that, we would add all these news items in the container and can add our desired CSS to them. Here, We are providing a grid layout to our cards.
@@ -77,7 +77,7 @@ Figure 1.10: Our Application
 
  
 
-<h4>**Adding Sample Images to card**</h4>
+<h4>Adding Sample Images to card</h4>
 
 
 In the sample response code of news API, we are provided with a Sample Image URL. We can use this URL in the ‘img src’ tag of the NewsItems Card.  
