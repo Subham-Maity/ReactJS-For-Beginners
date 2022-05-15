@@ -88,7 +88,8 @@ Result: We have successfully added the six NewsItems Components and have passed 
 
 
 
-![img_8](https://user-images.githubusercontent.com/97989643/168466698-b7d7b835-bdc2-4199-8092-4a22055cae7f.png)
+
+![Screenshot 2022-05-15 154300](https://user-images.githubusercontent.com/97989643/168467675-e9e98c3e-adc8-4451-a425-bd3b5402f240.png)
 
 Figure 1.8: Result
 
