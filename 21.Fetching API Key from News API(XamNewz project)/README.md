@@ -129,8 +129,7 @@ In order to use those images in the cards, simply copy the URL and paste it insi
 
  
 
-Result: this is how our News Cards looks like:
-![img_12](https://user-images.githubusercontent.com/97989643/168466674-fd59e9fc-23b3-46f7-8bbd-e3c6fe241c66.png)
+
 
 We have added these images just for the demo. Later on, we will be passing this image Url as a Prop.
 
