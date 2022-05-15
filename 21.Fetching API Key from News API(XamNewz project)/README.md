@@ -30,6 +30,14 @@ Note: We are getting the output as a parsed JSON because we have installed ‘[J
 
 Figure 1.3: Copy the Raw JSON code
 
+
+![Screenshot 2022-05-15 173645](https://user-images.githubusercontent.com/97989643/168471988-baece61c-a7f0-45f5-a53f-2358a5cb472c.png)
+
+
+![Screenshot 2022-05-15 173722](https://user-images.githubusercontent.com/97989643/168471990-46cce252-dd4f-403a-a8ec-73568d057c35.png)
+
+
+
 <h4>Using NewsAPI in News Monkey</h4>
 
 
