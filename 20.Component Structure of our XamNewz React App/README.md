@@ -1,5 +1,9 @@
 
 
+
+![Screenshot 2022-05-15 133020](https://user-images.githubusercontent.com/97989643/168463142-32dba48c-6198-40fb-af39-5c75ed9bd4c9.png)
+
+
 <h3><strong>The component structure of our application</strong></h3>
 
 
