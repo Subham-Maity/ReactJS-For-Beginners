@@ -1,5 +1,5 @@
 
-
+![screenshot](13.gif)
 
 ## Rendering Articles in NewsItems
 Earlier, we have passed the articles of sample response in the components of News.js. We have set the articles array as a variable and have used it as a state. Now, We want to iterate the articles array present inside the state, and then we would render these articles in our NewsItem Component.
