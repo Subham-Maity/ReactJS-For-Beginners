@@ -103,3 +103,37 @@ The length of all the NewsItems Cards isn’t equal due to this, our NewsMonkey 
 
 
 Figure 1.9: Using slice() Method
+
+
+```jsx
+
+     return(
+        <div className="container my-3">
+          <h2>XamNewz - Top Headlines</h2>
+          <div className="row">
+            {this.state.articles.map ( (element)=>{
+              return <div className = "col-md-4" key={element.url}>
+                <NewsItem title={element.title.slice(0, 45)} description={element.description.slice(0, 88)} imageUrl={element.urlToImage}
+                          newsUrl={element.url}/>
+              </div>
+            })}
+          </div>
+        </div>
+    )
+  }
+}
+
+
+
+
+
+
+//or;
+
+
+
+
+
+<NewsItem title={element.title} description={element.description} imageUrl={element.urlToImage} newsUrl={element.url}/>
+
+```
