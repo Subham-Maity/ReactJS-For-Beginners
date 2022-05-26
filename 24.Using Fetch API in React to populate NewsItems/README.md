@@ -1,4 +1,5 @@
 
+![Screenshot 2022-05-27 024932](https://user-images.githubusercontent.com/97989643/170582151-dea422cf-bdfa-49d7-8c5d-7e76e2a2b6e8.png)
 
 
 ### **News API**
@@ -107,7 +108,7 @@ Explanation: Now, If in case the element title or description is Null, then a bl
 
 Our Application: All the latest articles get populated in our News Monkey Application. 
 
-Figure 1.1: NewsMonkey Application
+
 
  
 
@@ -116,7 +117,9 @@ Figure 1.1: NewsMonkey Application
 
 Our application is quite astounding, but for some of the NewsItem Components, the image isn’t rendering in the NewsItem. Let’s fix this issue and wrap up this tutorial:
 
-Figure 1.2: Image Not Rendering in the NewsItem
+![11e51941a67748cf3d96483bfa360049](https://user-images.githubusercontent.com/97989643/170582101-2aa235e0-4781-4dd9-adea-bfe32f9d6e0f.png)
+
+Figure 1: Image Not Rendering in the NewsItem
 
 Here, the image is null for one of the Articles. Due to this reason, the image isn’t rendering in Our NewsItem. To resolve this issue, we would use a default Image URL when the ‘Url to the image of article’ is Null. For that, we would use the ternary operators in the ‘imgsrc’ tag of NewsItem.js in the following way: 
 
