@@ -1,4 +1,7 @@
 
+![Screenshot 2022-05-29 024443](https://user-images.githubusercontent.com/97989643/170843049-f2427dc8-faee-437a-8a7d-b2dc51a9e97b.png)
+
+
 ### **Creating Page Parameter State**
 
 We have found that only some of the articles are being rendered in the News Monkey application. The other articles are rendered on the Next Page. We would be fetching the remaining articles on the Next Page of the NewsMonkey application. For that, we would firstly add a page parameter to the state as follow:
@@ -20,6 +23,8 @@ constructor(){
 ### **Creating Previous and Next Buttons**
 
 Below, We have added the buttons and have edited them in our desired way. Here, we have added an arrow to the buttons and have even aligned the buttons perfectly.
+
+![img_1](https://user-images.githubusercontent.com/97989643/170843037-f37b1cc4-6f71-43f8-9066-019c224a6054.png)
 
 Figure 1.1: Adding Buttons and Editing them
 
