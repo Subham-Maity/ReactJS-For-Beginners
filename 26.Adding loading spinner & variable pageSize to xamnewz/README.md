@@ -39,8 +39,8 @@ Figure 1.2: Five NewsItems on a Single Page
 
 
 ### **Adding Loading Spinner**
-
-Firstly, we would download a spinner from the internet. We are using the [ajaxload](http://ajaxload.info/) website, You are free to use any of the spinner generating websites. After that,  the downloaded file and paste it inside the src of the NewsApp.
+ne
+Firstly, we would download a spinner from the internet. We are using the [ajaxload](http://ajaxloadingimages.net/) website, You are free to use any of the spinner generating websites. After that,  the downloaded file and paste it inside the src of the NewsApp.
 
 
 
