@@ -1,4 +1,10 @@
 
+# Our Apps Now
+
+
+![Screenshot 2022-06-16 062440](https://user-images.githubusercontent.com/97989643/173968138-0b1f8933-b165-4ec7-a7e5-ed097431c08f.png)
+
+
 
 ### **Passing "country" as a Prop**
 
@@ -46,6 +52,9 @@ The static variable can be used to refer to the common property of all objects. 
 
 Now, we would create a static variable inside the class to write proptype. Remember, we would be using static default props as well. 
 
+
+![img_1](https://user-images.githubusercontent.com/97989643/173967737-30124432-e540-45be-bfd2-dfb442f97c6c.png)
+
 Figure 1.1: Using Prop Types with Static variable
 
 Till now, we have created two props, which are ‘country’ and ‘Page size’. Here, we have passed the default value to the props also we have declared the prop type as string and number respectively for the two values. Later on, we would be adding more proptype in this static variable.
@@ -56,6 +65,8 @@ Till now, we have created two props, which are ‘country’ and ‘Page size’
 ### **Creating Categories**
 
 Moreover, we would like to show the different categories in the Navbar such as Business, Entertainment, General, Health, Science, Sports, and technology. To display these categories in the Navbar, You will have to add all the above categories in the Navbar.js as list items.
+
+![img_2](https://user-images.githubusercontent.com/97989643/173967784-f2edd8db-be39-4a3f-a36b-20c3a5b9c13e.png)
 
 Figure 1.2: Adding Categories in Navbar.js
 
@@ -75,6 +86,8 @@ Till now, we have created the different categories, but now we would like to pas
 
 
 Secondly, we have to embed this category in the URL. To do so we have to first add the category in the static default prop and static prop type variable.
+
+![img_3](https://user-images.githubusercontent.com/97989643/173967866-a93a3854-570a-4750-8293-117d0b00e766.png)
 
 Figure 1.3: Set Prop Type of Category
 
