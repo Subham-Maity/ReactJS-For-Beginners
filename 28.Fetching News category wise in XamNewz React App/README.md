@@ -36,7 +36,7 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
 
 ![1](https://user-images.githubusercontent.com/97989643/186036271-26a0678b-6cc6-4713-b1cc-f9df9812e4b1.png)
 
-Figure 1.1: Using React Router in NewsMonkey
+Figure 1.1: Using React Router in XamNewz
 
 Remember, that we are using the &lt;Route Exact path= “/” /> for the exact matching of the endpoint.
 
