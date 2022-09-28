@@ -1,5 +1,7 @@
 # Written By CodeXam
+In this revision note you will create a simple react app and you will learn how to use React in simple way.
 List of Revision
+#### ◘ Chapter 1 - Basic Project Setup
 - [**We Need This**](#we-need-this)
 - [**1. Create Our React App**](#1-create-our-react-app)
 - [**2. Start Our React App**](#2-start-our-react-app)
@@ -10,6 +12,12 @@ List of Revision
 - [**7. Wrap the code in <> </> tag**](#7-wrap-the-code-in--tag)
 - [**8. Use bootstrap in React**](#8-use-bootstrap-in-react)
 - [**9. Use bootstrap Component in React and Error Handling**](#9-use-bootstrap-component-in-react-and-error-handling)
+- [**10. App name change**](#10-app-name-change)
+- [**11. Customize your navbar according to your need**](#11-customize-your-navbar-according-to-your-need)
+#### ◘ Chapter 2 - Components Setup and Advance Topic
+- [**12. First Functional Based Component - Header.js make and import it in App.js**](#12-first-functional-based-component---headerjs-make-and-import-it-in-appjs)
+- [**13. Create Footer.js using react Arrow Function Component and import it in App.js**](#13-create-footerjs-using-react-arrow-function-component-and-import-it-in-appjs)
+
 ************
 ## We Need This 
 * [NodeJS Download From here](https://nodejs.org/en/download/)
@@ -294,4 +302,91 @@ function App() {
 export default App;
 
 ```
+### 10. App name change 
+Open index.html file and change the title of the app  ```React App``` to  ```<title>Todos List | CodeXam</title>```
+
+### 11. Customize your navbar according to your need 
+
+remove ```<li>``` tag or add ```<li>``` tag according to your need to customize your navbar.
+
+### 12. First Functional Based Component - Header.js make and import it in App.js
+Inside ```src folder``` create a folder named ```MyComponents``` and inside MyComponents folder create a file named ```Header.js``` and copy the code (```<nav>.....</nav>```) from App.js and paste it in Header.js inside ```return``` and remove the navbar code from App.js and for using the header in App.js import Header from ```./MyComponents/Header```; and add ```<Header/>``` in App.js inside ```return``` tag.
+
+- **Shortcut for creating functional snippet React in vscode is ```rfc``` and in webstorm is ```rsf```**
+
+```App.js```
+
+**Import Component**
+```jsx
+import Header from "./MyComponents/Header";
+````
+**Add Component**
+```jsx
+return (
+    <>
+        <Header/> {/*add this line for using the header*/}
+    </>
+
+);
+```
+
+```Header.js```
+
+**Export Default Component**
+```jsx
+import React from 'react';
+
+function Header(props) {
+    return (
+        <div></div> //return the navbar code here <nav>.....</nav>
+    );
+}
+
+export default Header;
+```
+### 13. Create Footer.js using react Arrow Function Component and import it in App.js
+
+Inside MyComponent Folder create a file named ```Footer.js``` and for using the footer in App.js import Footer from ```./MyComponents/Footer```; and add ```<Footer/>``` in App.js inside ```return``` tag.
+
+
+
+- **Shortcut for creating arrow function snippet React in VSCode is ```rafc``` and in webstorm is ```rsc```**
+
+```App.js```
+**Import Component**
+
+```jsx
+import Footer from "./MyComponents/Footer";
+```
+**Add Component**
+```jsx
+return (
+    <>
+        <Header/>
+        <Footer/> {/*add this line for using the footer*/}
+    </>
+
+);
+```
+
+```Footer.js```
+
+**Export Arrow Function Default Component**
+```jsx
+import React from 'react';
+
+const MyComponent = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default MyComponent;
+```
+
+
+
+
 
