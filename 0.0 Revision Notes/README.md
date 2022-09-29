@@ -410,7 +410,7 @@ function Header(props) {{/*add this line*/}
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">{props.title}</a>{/*add this line*/}
-.........*****************Remain code*****************.........
+{/*.........*****************Remain code*****************.........*/}
 ```
 ```App.js``` - **Parent Component** 
 ```jsx
@@ -420,7 +420,7 @@ function App() {
       <>
           <Header title = "My Todos List"/>{/*add this line*/}
 
-          .........*****************Remain code*****************.........
+          {/*.........*****************Remain code*****************.........*/}
 ```
 
 #### note: If you don't want to use props , you want to use title or anything else then replace the ```function Header(props)``` with ```function Header({title})``` and replace the ```<a className="navbar-brand" href="/">{props.title}</a>``` with ```<a className="navbar-brand" href="/">{title}</a>``` and in App.js add ```<Header title="My Todos List"/>``` and you will see the title in the header.
@@ -436,7 +436,7 @@ function App() {
       <>
           <Header title = "My Todos List" searchBar = {true}/>
           
-          .........*****************Remain code*****************.........
+          {/*.........*****************Remain code*****************.........*/}
 ```
 
 - Then go to ```Header.js```  if props.searchBar is true then show the search bar otherwise don't show the search bar.
@@ -446,15 +446,89 @@ for this you have to write something like this before search bar code
 ```jsx
 function Header(props) {
     return (
-.........*****************Remain code*****************.........
+// .........*****************Remain code*****************.........
         
                     {props.searchBar ? <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                         <button className="btn btn-outline-success" type="submit">Search</button>
                     </form> : "No Search Bar"}
 
-.........*****************Remain code*****************.........
+// .........*****************Remain code*****************.........
 ```
 - **So the syntax is** ```{props.searchBar ? <form className="d-flex">.....</form> : "if false then execute this"}```
 
 - Now if you pass false in App.js like this ```<Header title = "My Todos List" searchBar = {false}/>``` then you will see ```No Search Bar``` in the header 
+
+### 16. PropTypes in React
+What is PropTypes in React ?
+
+PorpTypes is a library that helps you to check the type of props that you are passing to the component. If you pass the wrong type of props then it will show you the error in the console.
+
+for example in Header.js if you add under jsx ```Header.propTypes = {title: PropTypes.string,}``` and ```import PropTypes from 'prop-types';``` .Then in App.js if you change ```<Header title = "My Todos List"/>``` to ```<Header title ={45}/>``` then you will see an error in the console like this ```Warning: Failed prop type: Invalid prop `title` of type `number` supplied to `Header`, expected `string`.``` we use PropTypes for checking the type of props.
+
+```Header.js``` - **Child Component**
+```jsx
+import PropTypes from 'prop-types';
+// .........*****************Remain code*****************.........
+// .........*****************Remain code*****************.........
+export default Header;
+// Here
+Header.propTypes = {
+    title: PropTypes.string,
+}
+```
+
+```App.js``` - **Parent Component**
+```jsx
+<Header title = "My Todos List" searchBar = {false}/>
+```
+
+### 17. DefaultProps in React
+What is DefaultProps in React ?
+
+DefaultProps is a library that helps you to set the default value of props that you are passing to the component. If you don't pass the props then it will show you the default value in the console.
+
+For example in Home.js if I add  ```Header.defaultProps = {title: "Your Title Here",} then If I remove the title in App.js like this ```<Header/>``` then it will show the default value of title in the console like this ```Your Title Here```
+
+```Header.js``` - **Child Component**
+```jsx
+// .........*****************Remain code*****************.........
+// .........*****************Remain code*****************.........
+export default Header;
+// Here
+Header.defaultProps = {
+    title: "Your Title Here",
+}
+
+```
+
+```App.js``` - **Parent Component**
+```jsx
+<Header />
+```
+
+Even I can do this same things with search bar 
+
+```Header.js``` - **Child Component**
+```jsx
+// .........*****************Remain code*****************.........
+// .........*****************Remain code*****************.........
+export default Header;
+Header.defaultProps = {
+    title: "Your Title Here",
+    searchBar: true, // I can set the default value of search bar
+}
+Header.propTypes = {
+    title: PropTypes.string,
+    searchBar: PropTypes.bool.isRequired, // I can set the type of search bar and it is required or not
+}
+```
+
+```App.js``` - **Parent Component**
+```jsx
+<Header />
+```
+Now you will see the default value of search bar in the console like this ```true``` so search bar will be shown in the header.
+
+
+**Note:** we use isRequired if I remove ```searchBar: true,``` default value or normal boolean value then it will show an error in the console like this ```Warning: Failed prop type: The prop `searchBar` is marked as required in `Header`, but its value is `undefined`.``` so we use isRequired for checking the type of props.
