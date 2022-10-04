@@ -1,5 +1,5 @@
 # Written By CodeXam
-In this revision note you will create a simple react app and you will learn how to use React in simple way.
+### **_In this revision note you will create a simple react app and you will learn how to use React in simple way_.**
 
 List of Revision React Note
 #### ◘ Chapter 1 - Basic Project Setup
@@ -15,12 +15,22 @@ List of Revision React Note
 - [**9. Use bootstrap Component in React and Error Handling**](#9-use-bootstrap-component-in-react-and-error-handling)
 - [**10. App name change**](#10-app-name-change)
 - [**11. Customize your navbar according to your need**](#11-customize-your-navbar-according-to-your-need)
-#### ◘ Chapter 2 - Components Setup 
+#### ◘ Chapter 2 - Components Create
 - [**12. First Functional Based Component - Header.js make and import it in App.js**](#12-first-functional-based-component---headerjs-make-and-import-it-in-appjs)
 - [**13. Create Another Components using react Arrow Function Component and import it in App.js**](#13-create-another-components-using-react-arrow-function-component-and-import-it-in-appjs)
 #### ◘ Chapter 3 - Props 
 - [**14. Props in React**](#14-props-in-react)
 - [**15. Using Props Conditional rendering in React - using the ternary operator**](#15-using-props-conditional-rendering-in-react---using-the-ternary-operator)
+- [**16. PropTypes in React**](#16-proptypes-in-react)
+- [**17. DefaultProps in React**](#17-defaultprops-in-react)
+#### ◘ Chapter 4 - Components Setup 
+- [**18.1 Props , Array and Passing Props to Child Component setup**](#u-181-props--array-and-passing-props-to-child-component-setupu)
+- [**18.2 Using for Loop in React**](#u-182-using-for-loop-in-reactu)
+
+
+
+
+
 ************
 ## We Need This 
 * [NodeJS Download From here](https://nodejs.org/en/download/)
@@ -532,3 +542,127 @@ Now you will see the default value of search bar in the console like this ```tru
 
 
 **Note:** we use isRequired if I remove ```searchBar: true,``` default value or normal boolean value then it will show an error in the console like this ```Warning: Failed prop type: The prop `searchBar` is marked as required in `Header`, but its value is `undefined`.``` so we use isRequired for checking the type of props.
+
+### 18. Components Setup in React
+#### <u> 18.1 Props , Array and Passing Props to Child Component setup</u>
+- First go to App.js and create a new array of objects like this
+
+```App.js``` - **Parent Component**
+```jsx
+function App() {
+    let myVariable = 1;
+    let todos = [
+        {
+            sno: 1,//sno is serial number
+            title: "Go to the market",// title 
+            desc: "You need to go to the market to get this job done" // desc is short for description 
+        },
+        {
+            sno: 2,
+            title: "Go to the mall",
+            desc: "You need to go to the mall to get this job done"
+        },
+        {
+            sno: 3,
+            title: "Go to the shop",
+            desc: "You need to go to the shop to get this job done"
+        },
+    ]
+    return (
+        <>
+            <Header title = "My Todos List" searchBar = {false}/>
+            <Todos todos = {todos}/>
+            {/*.........*****************Remain code*****************.........*/}
+```
+
+- Then we are passing todos array to Todos component in App.js
+
+```App.js``` - **Parent Component**
+```jsx
+<Todos todos ={todos}/>
+```
+
+- In todos.js we are getting the todos array from App.js 
+
+```Todos.js``` - **Child Component**
+```jsx
+import React from 'react'
+import {TodoItem} from './TodoItem'
+export const Todos = (props) => { // Here we are getting the todos array from App.js 
+    return (
+        <div className="container">
+            <h3 >Todos List</h3>
+           <TodoItem todo={props.todos[0]}/>  {/*Here we are passing the first object of todos array to TodoItem component*/}
+
+        </div>
+    )
+}
+```
+
+- In TodoItem.js we are getting the todo object from Todos.js
+
+```TodoItem.js``` - **Child Component**
+```jsx
+export const TodoItem = ({todo}) => {// Here we are getting the todo object from Todos.js
+    return (
+        <div>
+            <h4>{todo.sno}</h4>{/* Here we are getting the sno from todo object */}
+            <h4>{todo.title}</h4>
+            <p>{todo.desc}</p>
+        </div>
+    )
+}
+        
+```
+
+- Now set the delete button in TodoItem.js
+
+```TodoItem.js``` - **Child Component**
+```jsx
+export const TodoItem = ({todo}) => {
+    return (
+        <div>
+            <h4>{todo.sno}</h4>
+            <h4>{todo.title}</h4>
+            <p>{todo.desc}</p>
+            <button className="btn btn-sm btn-danger">Delete</button>
+        </div>
+    )
+}
+```
+
+- For setting the todos list in middle of the page we use ```<div className="container">``` in Todos.js
+
+```Todos.js``` - **Child Component**
+```jsx
+ <div className="container">
+            <h3 className="text-center">Todos List</h3> //text-center is a bootstrap class for centering the text
+
+```
+
+- If you want to give some margin to the todos list then you can use ```<div className="container my-3">``` in Todos.js
+
+```Todos.js``` - **Child Component**
+```jsx
+ <div className="container">
+            <h3 className="text-center my-3">Todos List</h3> //my-3 is a bootstrap class for giving margin to the todos list
+
+```
+
+#### <u> 18.2 Using for Loop in React</u>
+- Now we are going to use for loop in React for showing the todos list
+
+```Todos.js``` - **Child Component**
+```jsx
+
+
+```
+
+
+
+
+  
+
+
+
+
