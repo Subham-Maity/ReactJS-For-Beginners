@@ -1,13 +1,23 @@
-# 1. TextUtils Project(04-18) -> click [here](https://github.com/Subham-Maity/textutils)  (Turn on the dark mode )
-# 2. XamNewz -> click [here](https://github.com/Subham-Maity/xamnewz)  
+Hey there! Are you looking to learn react.js but feeling a bit overwhelmed? Don't worry, we've got you covered. Our interactive website is designed to make learning react fun and easy, even for beginners.
 
-![1_KBGdMaU_emZX4XR1AvkD4A](https://user-images.githubusercontent.com/97989643/166133262-ed14ce90-b193-4dc7-be6f-3df6e06082c6.gif)
+We're currently working on building out the content for the tutorial and we'd love for you to join us on this journey. If you're interested in contributing and helping others learn, please check out our website [here.](https://codexam.vercel.app/docs/react)
 
-# react-js-bootcamp
+## Check out the website [here](https://codexam.vercel.app/docs/react)
 
-<p align="center">
-        <img src="https://c.tenor.com/F1XAiC9HVBMAAAAd/coding-codingisfun.gif"/>
-        </p>
-        
-        
-     
+Here is the list of topics covered in the tutorial:
+
+-**React basics**
+
+- **Components**
+
+- **Props and state**
+
+- **Hooks**
+
+- **Forms**
+
+- **Routing**
+
+- **And more!**
+
+![intro](intro.gif)
