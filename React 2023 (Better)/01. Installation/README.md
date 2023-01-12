@@ -45,7 +45,7 @@
 ```bash
   npm start
 ```
-       This will start the development server and open the application in your default browser.
+This will start the development server and open the application in your default browser.
 
  <p align="center">
         <img style={{ position: "relative" ,opacity: 1 ,borderRadius: "10px" ,overflow: "hidden" , marginTop:"20px" , marginBottom: "20px"}}
