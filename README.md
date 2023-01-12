@@ -2,11 +2,14 @@ Hey there! Are you looking to learn react.js but feeling a bit overwhelmed? Don'
 
 We're currently working on building out the content for the tutorial and we'd love for you to join us on this journey. If you're interested in contributing and helping others learn, please check out our website [here.](https://codexam.vercel.app/docs/react)
 
+
 ## Check out the website [here](https://codexam.vercel.app/docs/react)
+
+![intro](intro.gif)
 
 Here is the list of topics covered in the tutorial:
 
--**React basics**
+- **React basics**
 
 - **Components**
 
@@ -20,4 +23,3 @@ Here is the list of topics covered in the tutorial:
 
 - **And more!**
 
-![intro](intro.gif)
