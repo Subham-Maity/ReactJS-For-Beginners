@@ -1,4 +1,4 @@
-**Hey there!** Are you looking to learn react.js but feeling a bit overwhelmed?
+## **Hey there!** Are you looking to learn react.js but feeling a bit overwhelmed?
 
  Don't worry, we've got you covered. Our interactive website is designed to make learning react fun and easy, even for beginners.
 
