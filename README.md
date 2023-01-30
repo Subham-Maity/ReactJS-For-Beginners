@@ -10,6 +10,8 @@ We're currently working on building out the content for the tutorial and we'd lo
 | 1   | Introduction | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react1) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/00.%20Introduction) |
 | 2   | Installation | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react2) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/01.%20Installation) |
 | 3   | Structure of a React App | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react3) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/03.%20Folder%20Structure) |
+| 4  | JSX | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react4) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/04.%20JSX) |
+
 
 
 ### **Content List for React Native (2023)** (Check out the website [here](https://codexam.vercel.app/docs/react))
