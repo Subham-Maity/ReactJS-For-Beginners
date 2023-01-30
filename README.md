@@ -4,7 +4,7 @@
 
 We're currently working on building out the content for the tutorial and we'd love for you to join us on this journey. If you're interested in contributing and helping others learn, please check out our website [here.](https://codexam.vercel.app/docs/react)
 
-### **Content List for React (2023)** (Check out the website [here](https://codexam.vercel.app/docs/react))
+- #### **Content List for React (2023)** (Check out the website [here](https://codexam.vercel.app/docs/react))
 | Day | Chapter Name | Read on Website | Read on GitHub |
 |-----|--------------|-----------------|----------------|
 | 1   | Introduction | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react1) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/00.%20Introduction) |
@@ -14,7 +14,7 @@ We're currently working on building out the content for the tutorial and we'd lo
 
 
 
-### **Content List for React Native (2023)** (Check out the website [here](https://codexam.vercel.app/docs/react))
+- #### **Content List for React Native (2023)** (Check out the website [here](https://codexam.vercel.app/docs/react))
 | Day | Chapter Name | Read on Website | Read on GitHub |
 |-----|--------------|-----------------|----------------|
 | 1   | Introduction | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react1) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/00.%20Introduction) |
