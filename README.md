@@ -24,6 +24,7 @@ We're currently working on building out the content for the tutorial and we'd lo
 | 3   | CreateApp & Debugging | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/reactnative/react2) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/ReactNative%202023%20(new)/02.%20Create%20App) |
 | 4   | Folder Structure | [Check Here for Better Experience ](https://codexam.vercel.app/docs/reactnative/react3) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/ReactNative%202023%20(new)/03.%20File%20Structure) |
 | 5   | Hello World App | [Check Here for Better Experience ](https://codexam.vercel.app/docs/reactnative/react4) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/ReactNative%202023%20(new)/04.%20Hello%20World%20App) |
+| 6   | StyleSheet | [Check Here for Better Experience ](https://codexam.vercel.app/docs/reactnative/react5) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/ReactNative%202023%20(new)/05.%20StyleSheet) |
 
 
 ********************************************
