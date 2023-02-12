@@ -1,0 +1,15 @@
+.App {
+text-align: center;
+background-color: black;
+color: #ffffff;
+min-height: 100vh;
+
+}
+
+.header {
+  background-color: yellow
+}
+
+.footer {
+  background-color: green
+}
