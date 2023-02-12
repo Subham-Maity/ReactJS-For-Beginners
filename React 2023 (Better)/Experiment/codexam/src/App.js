@@ -1,4 +1,5 @@
 import './App.css';
+import Comp from './components/Comp';
 import  Student  from './components/Student';
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
     <Student 
     name="John"
     age={20} />
+    <Comp/>
     </div>
+
   );
 }
 
