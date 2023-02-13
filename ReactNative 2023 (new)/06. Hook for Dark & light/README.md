@@ -28,12 +28,9 @@ Simple replace the code in AppPro.tsx with the following code and run the app.
 
 
 
-<button
-  class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-  onClick={() => { window.location.href = "https://code-xam.vercel.app/docs/reactnative/react5#-how-to-apply-styles-in-react-native-"; }}
->
- Click Here For Code
-</button>
+
+ [Click Here For Code](https://code-xam.vercel.app/docs/reactnative/react5#-how-to-apply-styles-in-react-native-)
+
 
 <p align="center">
             <img style={{ position: "relative" ,opacity: 1 ,borderRadius: "10px" ,overflow: "hidden" , marginTop:"20px" , marginBottom: "20px"}}
