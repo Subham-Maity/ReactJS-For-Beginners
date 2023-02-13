@@ -13,7 +13,7 @@ We're currently working on building out the content for the tutorial and we'd lo
 | 4  | JSX | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react4) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/04.%20JSX) |
 | 5  | Components | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react5) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/05.%20Components%20and%20ImportExport) |
 | 6  | Styling Components | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react6) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/06.%20Styling%20Components) |
-
+| 7  | Props & Prop-types | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react7) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/07.%20Props%20%26%20Prop-types) |
 
 
 - #### **Content List for React Native (2023)** (Check out the website [here](https://codexam.vercel.app/docs/react))
