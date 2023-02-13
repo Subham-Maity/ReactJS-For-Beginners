@@ -1,4 +1,4 @@
-# [**Website View**](https://code-xam.vercel.app/docs/react/react6)
+# [**Website View**](https://code-xam.vercel.app/docs/react/react7)
 
 
 
@@ -260,3 +260,43 @@ Student.defaultProps = {
 - We can define default values to props using the defaultProps property. defaultProps is used to ensure that props will have a value if it was not specified by the parent component.
 - Example: When you visit a website and fill out a form you will notice that already some values are filled in. This is because the website has defined default values for the props.
 
+### ▶️ isRequired
+
+- isRequired is used to ensure that a prop is passed to a component. If the prop is not passed, a warning will be displayed in the console.
+
+```jsx filename="Student.js"
+import Comp from "./Comp"
+import PropTypes from "prop-types";
+
+const Student = (props) => {
+  return (
+    <>
+    <h1> {props.name} </h1>
+    <h2> {props.age} </h2>
+    <Comp name={props.name}/>
+    </>
+  )
+}
+
+Student.propTypes = {
+  name: PropTypes.string.isRequired,
+  age: PropTypes.number.isRequired
+}
+
+Student.defaultProps = {
+  name: "John",
+  age: 20
+}
+
+```
+
+- If you remove the props name and age from the App.js file then you will get an error in the console.
+
+```bash filename="bash"
+index.js:75
+
+Warning: Failed prop type: The prop `name` is marked as required in `Student`, but its value is `undefined`.
+at Student (http://localhost:3001/main.70cb7e2efd57e082bcd4.hot-update.js:29:29)
+at div
+at App
+```
