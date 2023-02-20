@@ -1,41 +1,66 @@
 .App {
   text-align: center;
-  background-color: rgb(255, 255, 255);
-  color: white;
+  background-color: #f0f0f0;
+  color: #1a1a1a;
   min-height: 100vh;
 }
 
-.header{
-  background: rgb(58,88,139);
-  background: radial-gradient(circle, rgba(58,88,139,1) 0%, rgba(52,44,114,1) 100%);
-padding:  8px;
-
+.header {
+  background: linear-gradient(to bottom, #2c2c2c, #444444);
+  color: #fff;
+  padding: 20px;
 }
 
-.footer{
-  background-color: #0043fa;
-  
-}
-.main{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-padding: 14px;
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
 }
 
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
 
-h1{
+h1 {
   margin: 0;
 }
 
 .Movie {
-  display: inline-block;
-  width: 200px;
-  height: 300px;
-  background: rgb(58,88,139);
-  background: radial-gradient(circle, rgba(58,88,139,1) 0%, rgba(44,88,114,1) 100%);
-  border: 2px solid black;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-  padding: 10px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #1a1a1a;
+  font-weight: bold;
+  margin-top: 20px;
+  overflow: hidden;
+  text-align: left;
+  width: 25%;
 }
+
+.Movie img {
+  display: block;
+  height: 760px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.Movie h3 {
+  background: linear-gradient(to right, #ffbb00, #ff4444);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  padding: 20px;
+}
+
+.Movie p {
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 20px;
+}
+
+
