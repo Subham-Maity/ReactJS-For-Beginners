@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-color: #f0f0f0;
-  color: #1a1a1a;
+  background-color: #121212;
+  color: #fff;
   min-height: 100vh;
 }
 
@@ -26,24 +26,28 @@
 
 h1 {
   margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .Movie {
-  background: #fff;
-  border: 1px solid #e0e0e0;
+  background: #1f1f1f;
+  border: 1px solid #333;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  color: #1a1a1a;
-  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-weight: 500;
   margin-top: 20px;
   overflow: hidden;
   text-align: left;
-  width: 25%;
+  width: 24%;
 }
 
 .Movie img {
   display: block;
-  height: 760px;
+  height: 400px;
   object-fit: cover;
   width: 100%;
 }
@@ -51,16 +55,14 @@ h1 {
 .Movie h3 {
   background: linear-gradient(to right, #ffbb00, #ff4444);
   color: #fff;
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 700;
   margin: 0;
   padding: 20px;
 }
 
 .Movie p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.2;
   margin: 20px;
 }
-
-
