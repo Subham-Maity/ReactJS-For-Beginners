@@ -1,12 +1,14 @@
 .App {
   text-align: center;
-  background-color: #121212;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,54,74,1) 50%, rgba(0,0,0,1) 100%);
   color: #fff;
   min-height: 100vh;
 }
 
 .header {
-  background: linear-gradient(to bottom, #2c2c2c, #444444);
+  background: rgb(64,77,97);
+  background: radial-gradient(circle, rgba(64,77,97,1) 0%, rgba(134,102,85,1) 100%);
   color: #fff;
   padding: 20px;
 }
@@ -42,7 +44,10 @@ h1 {
   margin-top: 20px;
   overflow: hidden;
   text-align: left;
-  width: 24%;
+  width: 20%;
+  margin-left: 15px;
+  margin-right: 51px;
+  margin-bottom: 5px;
 }
 
 .Movie img {
@@ -53,7 +58,8 @@ h1 {
 }
 
 .Movie h3 {
-  background: linear-gradient(to right, #ffbb00, #ff4444);
+  background: rgb(37,15,51);
+background: linear-gradient(90deg, rgba(37,15,51,1) 0%, rgba(15,38,74,1) 50%, rgba(155,150,150,1) 100%);
   color: #fff;
   font-size: 1.5rem;
   font-weight: 700;
