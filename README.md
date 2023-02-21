@@ -1,6 +1,17 @@
-## **👋 Hey there, dev!** Want to learn React.js but feeling a bit overwhelmed? 
 
-No worries, we've got your back! Our interactive website is designed to make learning React not just easy, but also fun and exciting - even for beginners! 🎉
+
+
+
+<p align="center">
+            <img style={{ position: "relative" ,opacity: 1 ,borderRadius: "10px" ,overflow: "hidden" , marginTop:"20px" , marginBottom: "20px"}}
+            src="https://user-images.githubusercontent.com/97989643/220242520-78dd8232-4416-461a-a8f1-6c0b3f5f357f.gif"
+            width="450"/>
+</p>
+
+ **👋 Hey there, dev!** Want to learn React.js but feeling a bit overwhelmed? 
+---
+
+No worries, we've got your back! Our interactive website is designed to make learning React not just easy, but also *fun* and exciting - even for beginners! 🎉
 
 We're currently working hard to build out the tutorial content, and we'd love for you to join us on this journey. ✨ If you're interested in contributing and helping others learn, please check out our website [here](https://codexam.vercel.app/docs/react) and be part of our amazing community! 🤗
 
