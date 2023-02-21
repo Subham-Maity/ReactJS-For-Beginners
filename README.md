@@ -14,8 +14,9 @@
 No worries, we've got your back! Our interactive website is designed to make learning React not just easy, but also *fun* and exciting - even for beginners! 🎉
 
 We're currently working hard to build out the tutorial content, and we'd love for you to join us on this journey. ✨ If you're interested in contributing and helping others learn, please check out our website [here](https://codexam.vercel.app/docs/react) and be part of our amazing community! 🤗
+*********
+### Content List for *React* (2023)
 
-**Content List for React (2023)** 
 > (Check out the website [here](https://codexam.vercel.app/docs/react))
 ---
 | **Day** | **Chapter Name** | **Read on Website** | **Read on GitHub** |
@@ -28,8 +29,9 @@ We're currently working hard to build out the tutorial content, and we'd love fo
 | **6**  | Styling Components | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react6) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/06.%20Styling%20Components) |
 | **7**  | Props & Prop-types | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react7) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/07.%20Props%20%26%20Prop-types) |
 | **8**  | Create Movie Website | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react8) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/08.%20Creating%20Movies%20Website) |
+*********
+### Content List for *React Native* (2023)
 
- **Content List for React Native (2023)** 
 > (Check out the website [here](https://codexam.vercel.app/docs/reactnative))
  ---
 | **Day** | **Chapter Name** | **Read on Website** | **Read on GitHub** |
