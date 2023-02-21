@@ -1,8 +1,8 @@
-## **Hey there!** Are you looking to learn react.js but feeling a bit overwhelmed?
+## **👋 Hey there, friend!** Want to learn React.js but feeling a bit overwhelmed? 
 
- Don't worry, we've got you covered. Our interactive website is designed to make learning react fun and easy, even for beginners.
+No worries, we've got your back! Our interactive website is designed to make learning React not just easy, but also fun and exciting - even for beginners! 🎉
 
-We're currently working on building out the content for the tutorial and we'd love for you to join us on this journey. If you're interested in contributing and helping others learn, please check out our website [here.](https://codexam.vercel.app/docs/react)
+We're currently working hard to build out the tutorial content, and we'd love for you to join us on this journey. ✨ If you're interested in contributing and helping others learn, please check out our website [here](https://codexam.vercel.app/docs/react) and be part of our amazing community! 🤗
 
 - #### **Content List for React (2023)** (Check out the website [here](https://codexam.vercel.app/docs/react))
 | Day | Chapter Name | Read on Website | Read on GitHub |
@@ -31,19 +31,4 @@ We're currently working on building out the content for the tutorial and we'd lo
 
 ![intro](intro.gif)
 
-Here is the list of topics covered in the tutorial:
-
-- **React basics**
-
-- **Components**
-
-- **Props and state**
-
-- **Hooks**
-
-- **Forms**
-
-- **Routing**
-
-- **And more!**
 
