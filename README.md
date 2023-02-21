@@ -1,4 +1,4 @@
-## **👋 Hey there, friend!** Want to learn React.js but feeling a bit overwhelmed? 
+## **👋 Hey there, dev!** Want to learn React.js but feeling a bit overwhelmed? 
 
 No worries, we've got your back! Our interactive website is designed to make learning React not just easy, but also fun and exciting - even for beginners! 🎉
 
