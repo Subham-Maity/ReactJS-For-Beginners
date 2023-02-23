@@ -1,7 +1,3 @@
-
-
-
-
 <p align="center">
             <img style={{ position: "relative" ,opacity: 1 ,borderRadius: "10px" ,overflow: "hidden" , marginTop:"20px" , marginBottom: "20px"}}
             src="https://user-images.githubusercontent.com/97989643/220242520-78dd8232-4416-461a-a8f1-6c0b3f5f357f.gif"
@@ -45,7 +41,11 @@ We're currently working hard to build out the tutorial content, and we'd love fo
 | **7**   | Hook for Dark and light Mode | [Check Here for Better Experience ](https://codexam.vercel.app/docs/reactnative/react6) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/ReactNative%202023%20(new)/06.%20Hook%20for%20Dark%20%26%20light) |
 
 ********************************************
+<p align="center">
+            <img style={{ position: "relative" ,opacity: 1 ,borderRadius: "10px" ,overflow: "hidden" , marginTop:"20px" , marginBottom: "20px"}}
+            src="intro.gif"
+            width="450"/>
+</p>
 
-![intro](intro.gif)
 
 
