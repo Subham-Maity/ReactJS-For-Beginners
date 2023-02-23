@@ -43,8 +43,7 @@ We're currently working hard to build out the tutorial content, and we'd love fo
 ********************************************
 <p align="center">
             <img style={{ position: "relative" ,opacity: 1 ,borderRadius: "10px" ,overflow: "hidden" , marginTop:"20px" , marginBottom: "20px"}}
-            src="intro.gif"
-            width="450"/>
+            src="intro.gif"width="650"/>
 </p>
 
 
