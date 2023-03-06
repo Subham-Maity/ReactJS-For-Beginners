@@ -394,6 +394,64 @@ This is a simple React app that displays information about movies from a JSON fi
 
 - The `Movie component` uses the props to display the title, year, and poster of each movie.
 
+### Object Destructuring
+
+ > Instead of passing the props object as an argument to the Movie component, we can destructure the props object and pass the individual properties as arguments to the Movie component.
+
+ Let me explain this with and example of JavaScript.
+
+ #### Before Destructuring
+
+> This is similar as props (person) when we always pass the props object as an argument and call the properties of the object using dot notation.
+
+```js
+ const person = {
+     name: "John",
+     age: 30,
+     city: "New York"
+     };
+  person.name; // John
+  person.age; // 30
+  person.city; // New York
+```
+
+
+#### After Destructuring
+
+> This is similar as props (\{name, age, city}) when we destructure the props object and pass the individual properties as arguments to the Movie component. We can also set default values for the properties.
+
+```js
+    const person = {
+    name: "John",
+    age: 30,
+    city: "New York"
+    };
+
+    const { name, age, city } = person;
+
+    console.log(name); // John
+    console.log(age); // 30
+    console.log(city); // New York
+```
+#### Destructuring in React
+
+```js filename="Movie.js"
+    const Movie({img , title , year}) {
+      return (
+        <div className="Movie">
+          <img src={img} alt="movie poster" />
+          <div className="movie-details">
+            <h3>{title}</h3>
+            <p>Year: {year}</p>
+          </div>
+        </div>
+      );
+    }
+
+    export default Movie;
+
+```
+- You can notice here we are not using dot notation to access the properties of the object. We are directly using the properties of the object as arguments to the Movie component.
 
 
 
