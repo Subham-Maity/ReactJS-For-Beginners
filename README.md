@@ -25,6 +25,7 @@ We're currently working hard to build out the tutorial content, and we'd love fo
 | **6**  | Styling Components | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react6) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/06.%20Styling%20Components) |
 | **7**  | Props & Prop-types | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react7) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/07.%20Props%20%26%20Prop-types) |
 | **8**  | Create Movie Website | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react8) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/08.%20Creating%20Movies%20Website) |
+| **9**  | Tools & If-Else & ternary | [Check Here for Better Experience ](https://code-xam.vercel.app/docs/react/react9) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/React%202023%20(Better)/09.%20Tools%20%26%20If-Else%20%26%20ternary/img) |
 *********
 ### Content List for *React Native* (2023)
 
