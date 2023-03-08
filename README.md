@@ -50,7 +50,8 @@ This is a comprehensive course on React.js and React Native, the popular framewo
 | **7**   | Hook for Dark and light Mode | [Check Here for Better Experience ](https://codexam.vercel.app/docs/reactnative/react6) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/ReactNative%202023%20(new)/06.%20Hook%20for%20Dark%20%26%20light) |
 | **8**   | Unsupported class file major version 63 | [Check Here for Better Experience ](https://codexam.vercel.app/docs/reactnative/react7) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/ReactNative%202023%20(new)/07.%20Bug%20Info%20-%20version%2063) |
 ********************************************
-
+| **9**   | Multi file Components | [Check Here for Better Experience ](https://codexam.vercel.app/docs/reactnative/react8) | [Check Here](https://github.com/Subham-Maity/ReactJS-For-Beginners/tree/master/ReactNative%202023%20(new)/08.%20Multi%20file%20Components) |
+********************************************
 
 ## Projects you will build 🛠️
 
