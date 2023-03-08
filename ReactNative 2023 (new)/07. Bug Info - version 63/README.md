@@ -5,9 +5,10 @@
 
 ## ⭐ Understanding the Error
 
-
+<p>
 <img style={{ position: "relative" ,opacity: 1 ,borderRadius: "10px" ,overflow: "hidden" , marginTop:"20px" , marginBottom: "20px"}} src="https://media.giphy.com/media/vrxxqQbyRxYi6scCjT/giphy.gif" />
 </p>
+
 
 
 ```bash
